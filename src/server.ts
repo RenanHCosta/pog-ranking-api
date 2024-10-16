@@ -7,6 +7,6 @@ app.register(playerRoutes, {
   prefix: "/players",
 });
 
-app.listen({ port: Number(process.env.PORT) || 3333 }, () => {
+app.listen({ port: Number(process.env.PORT) || 3333, host: "0.0.0.0" }, () => {
   console.log(`Server is running on port ${process.env.PORT ?? 3333}`);
 });
