@@ -1,4 +1,4 @@
-import { RIOT_BR1_BASE_API_URL, SUMMONER_API } from "../constants";
+import { RIOT_BR1_BASE_API_URL, SUMMONER_API } from "../../constants";
 
 interface IGetPlayerSummonerIdResponse {
   id: string;

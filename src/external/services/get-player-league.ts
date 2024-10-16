@@ -1,5 +1,5 @@
-import { LEAGUE_API, RIOT_BR1_BASE_API_URL } from "../constants";
-import type { QueueType, Rank, Tier } from "../typings";
+import { LEAGUE_API, RIOT_BR1_BASE_API_URL } from "../../constants";
+import type { QueueType, Rank, Tier } from "../../typings";
 
 interface IGetPlayerLeagueResponse {
   leagueId: string;

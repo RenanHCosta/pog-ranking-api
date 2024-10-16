@@ -1,9 +1,9 @@
 import { FastifyInstance } from "fastify";
 import { PlayerUseCase } from "../usecases/player.usecase";
 import { PlayerCreate } from "../interfaces/player.interface";
-import { getPlayerPuuid } from "../services/getPlayerPuuid";
-import { getPlayerSummonerId } from "../services/getPlayerSummonerId";
-import { getPlayerLeague } from "../services/getPlayerLeague";
+import { getPlayerPuuid } from "../external/services/get-player-puuid";
+import { getPlayerSummonerId } from "../external/services/get-player-summoner-id";
+import { getPlayerLeague } from "../external/services/get-player-league";
 
 export async function playerRoutes(fastify: FastifyInstance) {
   const playerUseCase = new PlayerUseCase();

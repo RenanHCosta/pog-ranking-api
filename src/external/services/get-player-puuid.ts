@@ -1,4 +1,4 @@
-import { ACCOUNT_API, RIOT_AMERICAS_BASE_API_URL } from "../constants";
+import { ACCOUNT_API, RIOT_AMERICAS_BASE_API_URL } from "../../constants";
 
 interface IGetPlayerPuuidResponse {
   puuid: string;
