@@ -1,7 +1,12 @@
 import fastify from "fastify";
+import cors from "@fastify/cors";
 import { playerRoutes } from "./routes/player.routes";
 
 const app = fastify();
+
+app.register(cors, {
+  origin: "*",
+});
 
 app.register(playerRoutes, {
   prefix: "/players",
