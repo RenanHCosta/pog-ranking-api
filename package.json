@@ -1,0 +1,24 @@
+{
+  "name": "pog-ranking-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@fastify/env": "^5.0.1",
+    "@prisma/client": "^5.21.0",
+    "fastify": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "prisma": "^5.21.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3"
+  }
+}
